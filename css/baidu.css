@@ -14,40 +14,41 @@ body{
   text-align: right;
 }
 .item{
+  margin-left: 20px;
   color: #333;
   font-weight: 700;
-  font-size: 13px;
-  margin-left: 20px;
+  font-size: 13px; 
 }
 .login{
+  margin-left: 20px;
   font-size: 13px;
   color: #333;
-  margin-left: 20px;
 }
 .setting{ 
+  margin-left: 20px;
   font-size: 13px;
   color: #333;
-  margin-left: 20px;
+ 
 }
 .more{
   display: inline-block;
+  margin-left: 10px;
+  width: 66px; 
+  height: 23px; 
   font-size: 13px;
   color: #fff;
   background-color: #38f;
   text-decoration: none;
   border-bottom: 1px solid #38f;
-  height: 23px;
-  width: 66px;
   text-align: center;
-  line-height: 23px;
-  margin-left: 10px;
+  line-height: 23px; 
 }
 .nav-container a:hover{
   color: #38f;
 }
 .page-mainer{
-  text-align: center;
   margin-top: 20px;
+  text-align: center;
 }
 .logo{
   width: 270px;
@@ -65,10 +66,10 @@ body{
 .find{
   width: 100px;
   height: 36px;
+  font-size: 15px;
   background-color: #3385ff;
   border:1px solid #2d78f4;
-  color: #fff;
-  font-size: 15px;
+  color: #fff;  
   vertical-align: bottom; 
 }
 .find:hover{
@@ -83,9 +84,10 @@ body{
   font-size: 13px;
 }
 .footer-info{
+  margin-top: 10px;
   color: #999;
   font-size: 13px;
-  margin-top: 10px;
+  
 }
 .qrcode-text{
   margin-bottom: 20px;
