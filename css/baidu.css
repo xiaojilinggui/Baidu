@@ -39,14 +39,15 @@ body{
   height: 23px;
   width: 66px;
   text-align: center;
-  line-height: 24px;
+  line-height: 23px;
   margin-left: 10px;
 }
-.head-nav a:hover{
+.nav-container a:hover{
   color: #38f;
 }
 .page-mainer{
   text-align: center;
+  margin-top: 20px;
 }
 .logo{
   width: 270px;
@@ -59,6 +60,7 @@ body{
 .form{
   width: 540px;
   height: 36px;
+  outline: none;
 }
 .find{
   width: 100px;
@@ -68,5 +70,23 @@ body{
   color: #fff;
   font-size: 15px;
   vertical-align: bottom; 
-
+}
+.find:hover{
+  background-color: #2964bb;
+}
+.page-footer{
+  text-align: center;
+  margin-top: 220px;
+}
+.footer-info a{
+  color: #999;
+  font-size: 13px;
+}
+.footer-info{
+  color: #999;
+  font-size: 13px;
+  margin-top: 10px;
+}
+.qrcode-text{
+  margin-bottom: 20px;
 }
