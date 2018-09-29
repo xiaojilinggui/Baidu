@@ -13,7 +13,7 @@ body{
   margin-right: 15px;
   text-align: right;
 }
-.mmav{
+.item{
   color: #333;
   font-weight: 700;
   font-size: 13px;
@@ -29,7 +29,7 @@ body{
   color: #333;
   margin-left: 20px;
 }
-.bri{
+.more{
   display: inline-block;
   font-size: 13px;
   color: #fff;
@@ -52,17 +52,21 @@ body{
   width: 270px;
   height: 129px;
 }
+.form-container{
+  font-size: 0;
+  margin-top: 20px;
+}
 .form{
   width: 540px;
   height: 36px;
-
-
 }
-.anv{
+.find{
   width: 100px;
   height: 36px;
   background-color: #3385ff;
   border:1px solid #2d78f4;
   color: #fff;
   font-size: 15px;
+  vertical-align: bottom; 
+
 }
