@@ -4,14 +4,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+/*body{
   display: flex;
   flex-direction: column;
-}
+}*/
 .page-header{
+  display: flex;
+  flex-direction: row-reverse;
   margin-top: 15px;
   margin-right: 15px;
-  text-align: right;
 }
 .item{
   margin-left: 20px;
@@ -47,8 +48,11 @@ body{
   color: #38f;
 }
 .page-mainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 20px;
-  text-align: center;
+
 }
 .logo{
   width: 270px;
@@ -61,6 +65,7 @@ body{
 .form{
   width: 540px;
   height: 36px;
+  font-size: 18px;
   outline: none;
 }
 .find{
@@ -76,7 +81,9 @@ body{
   background-color: #2964bb;
 }
 .page-footer{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 220px;
 }
 .footer-info a{
@@ -91,4 +98,8 @@ body{
 }
 .qrcode-text{
   margin-bottom: 20px;
+  font-size: 13px;
+}
+.info-intro {
+  margin-left: 15px;
 }
