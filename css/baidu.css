@@ -28,18 +28,18 @@ body{
   font-weight: 700;
   font-size: 13px; 
 }
-.login{
+.nav-login{
   margin-left: 20px;
   font-size: 13px;
   color: #333;
 }
-.setting{ 
+.nav-setting{ 
   margin-left: 20px;
   font-size: 13px;
   color: #333;
  
 }
-.more{
+.nav-more{
   display: inline-block;
   margin-left: 10px;
   width: 66px; 
