@@ -53,7 +53,7 @@ body{
   line-height: 23px; 
 }
 .nav-container a:hover{
-  color: #38f;
+  color: #333;
 }
 .page-mainer{
   display: flex;
@@ -77,6 +77,9 @@ body{
   font-size: 18px;
   outline: none;
 }
+.jgweb{
+  margin-left: 30px;
+}
 .find{
   width: 100px;
   height: 36px;
@@ -87,7 +90,7 @@ body{
   vertical-align: bottom; 
 }
 .find:hover{
-  background-color: #2964bb;
+  background-color: #317ef3;
 }
 .page-footer{
   display: flex;
@@ -115,7 +118,7 @@ body{
 .info-intro {
   margin-left: 15px;
 }
-.container{
+.wrap{
   display: flex;
   height: 100%;
   flex-direction: column;
